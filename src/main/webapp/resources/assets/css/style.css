@@ -1,0 +1,136 @@
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  font-family: "Open Sans", sans-serif;
+  background: url("http://technuovo.com/wp-content/uploads/2013/11/blurred-background-7.jpg");
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+}
+
+input {
+  width: 400px;
+  padding: 4px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #087480;
+  border: none;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 5px;
+  cursor:pointer;
+}
+
+.buttontype {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #087480;
+  border: none;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 5px;
+  cursor:pointer;
+}
+
+.buttontype:hover {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #087480;
+  border: none;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 5px;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+h1, h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #087480;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
+
+table#products {
+  font-size: 13px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+#products th {
+    border: 1px solid #087480;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #087480;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+#products td {
+  border: 1px solid #778c8e;
+  text-align: left;
+  padding: 8px;
+}
+
+.created {
+  background-color: #359c00;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.firstpayoutdue {
+  background-color: #bb0472;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.nextpayoutdue {
+  background-color: #a07003;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.expired {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 3px;
+}
